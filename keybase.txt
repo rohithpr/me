@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/rohithpr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rohithpr.github.com
+  * I am rohithpr (https://keybase.io/rohithpr) on keybase.
+  * I have a public key with fingerprint 436C 2AAB 7EE9 6CED 4E60  AB37 3492 632A 4F66 DB5A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "436c2aab7ee96ced4e60ab373492632a4f66db5a",
+            "host": "keybase.io",
+            "key_id": "3492632a4f66db5a",
+            "kid": "01016499f7a1026d542eff12b19ecff87944aa01c7d68fc2ada0d01320f7a5de4d470a",
+            "uid": "027279f7f701a731862a1d708ea4c819",
+            "username": "rohithpr"
+        },
+        "service": {
+            "hostname": "rohithpr.github.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1439046335,
+    "expire_in": 157680000,
+    "prev": "dde15d4404d436b1593e7d918443b9f2486cee60d86eac12453fdaa2c8fa810e",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.34
+Comment: https://keybase.io/crypto
+
+yMIiAnicbZJbbAxRGMe3rRZFCCUiJDIiiKadM+fMbSn71DZRcYkiLl1n5pzpjrY7
+a3Z2qVq3ByFSxK1RfVFqQ6SXyL4oaZUSlW3TukbELUEiSN2FUGeKF3Fevpzv/L/f
++W5XR6V5MlN+fh4/7Mj2F49Tbl4ujHiKr01qq+I0i1Ry3iqujA4awwyWUjtkm0GH
+83IISrqAsSZTqko6JYhKPNagDJEqSFDAyJAkoomYy+YCVtiNYBgNh2mOaTEfu/hN
+wrz/0ZcNPvCABxJSVUPGgBckIiKBGgYQNKBS3TAUWUUIYx7oMpEUg+VCME94AAWe
+RYiEIoJk3sVFfuMEWZAZzJB5gGUIFEnAgMi8QjHSFaC6wjC1g7iCMrVtBUwnELK5
+WDbHvFFTp24L3Er+UeSUMhPRcnSrgiFCtuVYulXOBAHHCYW9LsCpDLkRG6nm/8Py
+a2aQsHayiCi1w6YV5LyAKXXHdOEAQZVHEoRiNkc3hUyb+k1XIcqSwrPj/kOjDEkI
+BSJBiGfFQkkDogqpTFSgIAQ11RCQwkbDBkMUiWIdCEiEBsFY0BUDK4CnnFvdhqDF
+eQWWJi5lyLBZGsROxKZcrKN9zRBPSqYnIz3VXQhP5vAxf9ck2Tl0oOjHwbFvqktm
+8ond40o2R3cdK6BXjp5qTAy5s2Nnlx8tu9FRPT1vcv8q+HTp2IU13w+kHC88PHJT
+ve/V2djLfT3ZH/Y8Wnl2f9oAHp/f51wYKD5zdMGz2hH1uUp8x9tp2+Jj5rYXlb9L
+fOsV7tQdVEb34Jr813Wz4b1Ue0XAd6s7y7p0f0M0WbN/Knw4s7X9XP2HJl9eTt+X
+E+HaBwXTGov2wvVNt9N3PujKmFKwZXnHovdbe+59bO0+ebc3/jDv+pI5WRer+2Mv
++g/F03zN6zoLm81kxcsZE/dmre0tmP86dd7zT0NXn66bcf7Jowb166yFyZY3K8vL
+os8We2MJ+1zDhNzKlrbjvwDx4jUH
+=pEqA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rohithpr
+
+==================================================================
