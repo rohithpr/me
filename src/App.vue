@@ -13,5 +13,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import './sass/globals';
+
+#app {
+  border: 1px solid $color-primary;
+}
 </style>
