@@ -1,22 +1,18 @@
 <template>
   <div id="app">
-    Hello
+    <div class="container-fluid">
+      <Introduction></Introduction>
+    </div>
   </div>
 </template>
 
 <script>
+import Introduction from './components/introduction';
 
 export default {
   name: 'app',
   components: {
+    Introduction,
   }
 }
 </script>
-
-<style lang="scss" scoped>
-@import './sass/globals';
-
-#app {
-  border: 1px solid $color-primary;
-}
-</style>

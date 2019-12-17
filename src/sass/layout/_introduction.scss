@@ -1,0 +1,40 @@
+.intro {
+  background-color: $grey-background-1;
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+  color: $color-primary;
+  padding: 12.5rem 0;
+
+  &__container {
+    display: inline-block;
+  }
+
+  &__social-link,
+  &__social-link:hover,
+  &__social-link:visited,
+  &__social-link:active,
+  &__social-link:focus {
+    display: inline-block;
+    padding: 1.5rem;
+    margin: 1rem;
+    color: $color-primary;
+    font-size: 3rem;
+    border: .3rem solid $color-primary;
+    text-decoration: none;
+    outline: none;
+  }
+
+  &__name {
+    font-family: futura-pt, 'Aldrich', sans-serif;
+    font-size: 6rem;
+  }
+
+  &__subtitle {
+    font-size: 2.5rem;
+  }
+
+  &__sep {
+    border-top: .3rem solid $color-primary;
+    margin: 4rem 0;
+  }
+}

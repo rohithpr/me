@@ -1,0 +1,9 @@
+.u-red-box { border: 1px solid red; }
+
+.u-hover-zoom {
+  transition: all .5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
