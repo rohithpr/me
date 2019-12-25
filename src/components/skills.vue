@@ -11,7 +11,7 @@
         </SkillCard>
       </div>
     </div>
-    <h3 class="skills__subheading u-margin-top-md">Environments, Tools and Services</h3>
+    <h3 class="skills__subheading u-margin-top-md">Tools, Environments and Services</h3>
     <div class="row skills__section">
       <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-2" v-for="tool in tools" v-bind:key="tool.name">
         <SkillCard
@@ -67,8 +67,38 @@ export default {
       name: 'Linux',
       logo: 'images/linux.png',
     }, {
+      name: 'Git',
+      logo: 'images/git.svg',
+    }, {
       name: 'Amazon Web Services',
       logo: 'images/aws.png',
+    }, {
+      name: 'AWS - Lambda',
+      logo: 'images/lambda.svg',
+    }, {
+      name: 'AWS - API Gateway',
+      logo: 'images/apig.svg',
+    }, {
+      name: 'AWS - EC2',
+      logo: 'images/ec2.svg',
+    }, {
+      name: 'AWS - IAM',
+      logo: 'images/iam.svg',
+    }, {
+      name: 'AWS - X-ray',
+      logo: 'images/xray.svg',
+    }, {
+      name: 'AWS - DynamoDB',
+      logo: 'images/dynamodb.svg',
+    }, {
+      name: 'AWS - RDS',
+      logo: 'images/rds.svg',
+    }, {
+      name: 'AWS - Elasticache',
+      logo: 'images/elasticache.svg',
+    }, {
+      name: 'AWS - S3',
+      logo: 'images/s3.svg',
     }]
     const frameworks = [{
       name: 'Django',
@@ -91,12 +121,12 @@ export default {
     }, {
       name: 'Bootstrap',
       logo: 'images/bootstrap.png',
-    }, {
-      name: 'Semantic UI',
-      logo: 'images/semantic.svg',
+    // }, {
+    //   name: 'Semantic UI',
+    //   logo: 'images/semantic.svg',
     }, {
       name: 'SQLAlchemy',
-      logo: 'images/sqla.png',
+      logo: 'images/pypi.svg',
     }, {
       name: 'Beautiful Soup',
       logo: 'images/pypi.svg',
