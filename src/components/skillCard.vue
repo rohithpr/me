@@ -26,7 +26,7 @@ export default {
 @import '../sass/abstracts/variables';
 
 .skill {
-  border-color: $color-secondary;
+  border-color: $line-color;
   color: $color-secondary;
 }
 </style>
