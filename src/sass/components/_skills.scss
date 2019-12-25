@@ -6,7 +6,8 @@
 
   &__heading {
     font-size: 4.5rem;
-    margin: 4rem 0 0 3rem;
+    margin: 0rem 0 0 3rem;
+    padding-top: 5rem;
   }
 
   &__subheading {
@@ -17,16 +18,17 @@
     border-bottom: 2px solid rgba($color-secondary, .7);
   }
 
-  &__languages {
-    & > img {
-      max-height: 10rem;
-    }
+  &__section {
+    padding-bottom: 4rem;
   }
 
   // NOT REM! Override BS4 hardcoded paddings and margins.
-  margin: -15px;
-  padding: 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
   & > .row {
-    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

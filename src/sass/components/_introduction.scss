@@ -1,5 +1,8 @@
 .intro {
-  background-color: $grey-background-1;
+  background-image:
+    linear-gradient(to right, rgba($grey-background-1, 0.5), rgba($grey-background-1, 0.8)),
+    url(/images/plant-mirror.jpeg);
+  background-size: cover;
   text-align: center;
   font-family: 'Aldrich', sans-serif;
   color: $color-primary;
