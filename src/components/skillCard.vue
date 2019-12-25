@@ -1,5 +1,5 @@
 <template>
-  <div class="skill">
+  <div class="skill u-hover-zoom">
     <img class="skill__image" :src="image"/>
     <p class="skill__title">{{ title }}</p>
   </div>
