@@ -1,0 +1,15 @@
+.skill {
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin: 3rem 0 0 0;
+
+  &__image {
+    height: 10rem;
+  }
+
+  &__title {
+    margin: 1rem 0 0 0;
+  }
+}

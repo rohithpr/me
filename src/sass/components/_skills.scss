@@ -1,0 +1,32 @@
+.skills {
+  background-color: $grey-background-2;
+  min-height: 100px;
+  color: $color-secondary;
+  font-family: 'Aldrich', sans-serif;
+
+  &__heading {
+    font-size: 4.5rem;
+    margin: 4rem 0 0 3rem;
+  }
+
+  &__subheading {
+    font-size: 3rem;
+    margin: 2rem 3rem;
+    display: inline-block;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba($color-secondary, .7);
+  }
+
+  &__languages {
+    & > img {
+      max-height: 10rem;
+    }
+  }
+
+  // NOT REM! Override BS4 hardcoded paddings and margins.
+  margin: -15px;
+  padding: 15px;
+  & > .row {
+    margin: 0px;
+  }
+}
