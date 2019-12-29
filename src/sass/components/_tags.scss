@@ -3,9 +3,10 @@
 
   &__tag {
     display: inline-block;
-    margin: 1rem 2rem 1rem 0;
+    margin: .5rem 1rem .5rem 0;
     padding: .5rem 2rem .5rem 2rem;
-    background-color: $dark-grey-1;
+    background-color: $color-primary;
+    color: $light-grey;
     clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%);
   }
 }
