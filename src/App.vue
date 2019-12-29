@@ -5,6 +5,7 @@
       <Skills></Skills>
       <Experience></Experience>
       <Education></Education>
+      <Resume></Resume>
     </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
 <script>
 import Experience from './components/experience'
 import Education from './components/education'
+import Resume from './components/resume'
 import Skills from './components/skills'
 import Introduction from './components/introduction';
 
@@ -21,6 +23,7 @@ export default {
     Education,
     Experience,
     Introduction,
+    Resume,
     Skills,
   }
 }
