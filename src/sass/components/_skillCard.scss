@@ -1,14 +1,22 @@
 .skill {
-  border-width: 1px;
+  border-width: 0px;
   border-style: solid;
   text-align: center;
   padding: 3rem 1rem;
   margin: 3rem 0 0 0;
   color: $color-secondary;
 
-  &__image {
-    max-width: 90%;
+  &__image-container {
     height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    vertical-align: middle;
+    max-width: 90%;
+    max-height: 100%;
   }
 
   &__title {

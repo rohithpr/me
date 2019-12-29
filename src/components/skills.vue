@@ -1,46 +1,23 @@
 <template>
   <div class="skills">
     <h2 class="skills__heading">Skills</h2>
-    <h3 class="skills__subheading">Languages</h3>
-    <div class="row skills__section">
-      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-2" v-for="language in languages" v-bind:key="language.name">
-        <SkillCard
-          :title=language.name
-          :image=language.logo
-        >
-        </SkillCard>
-      </div>
-    </div>
-    <h3 class="skills__subheading u-margin-top-md">Tools, Environments and Services</h3>
-    <div class="row skills__section">
-      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-2" v-for="tool in tools" v-bind:key="tool.name">
-        <SkillCard
-          :title=tool.name
-          :image=tool.logo
-        >
-        </SkillCard>
-      </div>
-    </div>
-    <h3 class="skills__subheading u-margin-top-md">Libraries &amp; Frameworks</h3>
-    <div class="row skills__section">
-      <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-2" v-for="framework in frameworks" v-bind:key="framework.name">
-        <SkillCard
-          :title=framework.name
-          :image=framework.logo
-        >
-        </SkillCard>
-      </div>
+    <div v-for="skill in skills" :key="skill.heading">
+      <SkillSection
+        :heading=skill.heading
+        :skills=skill.skills
+      >
+      </SkillSection>
     </div>
   </div>
 </template>
 
 <script>
-import SkillCard from './skillCard'
+import SkillSection from './skillSection'
 
 export default {
   name: 'Skills',
   components: {
-    SkillCard,
+    SkillSection,
   },
   data: function () {
     // TODO: Move to store?
@@ -140,8 +117,17 @@ export default {
       name: 'OpenAPI',
       logo: 'images/openapi.png',
     },]
-    const skills = { languages, tools, frameworks }
-    return skills
+    const skills = [{
+      heading: 'Languages',
+      skills: languages
+    }, {
+      heading: 'Tools, Environments and Services',
+      skills: tools
+    }, {
+      heading: 'Libraries & Frameworks',
+      skills: frameworks
+    }]
+    return { skills }
   }
 }
 </script>
