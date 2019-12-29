@@ -1,11 +1,5 @@
 .skill-section {
-  &__heading {
-    font-size: 3rem;
-    margin: 2rem 3rem;
-    display: inline-block;
-    padding-bottom: 2rem;
-    border-bottom: 2px solid rgba($line-color, .7);
-  }
+  @include section-subheading;
 
   &__list {
     padding-bottom: 2rem;

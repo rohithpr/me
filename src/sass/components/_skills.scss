@@ -1,22 +1,9 @@
 .skills {
+  @include reset-section;
+  @include section-heading;
+
   background-color: $grey-background-2;
   min-height: 100px;
   color: $color-secondary;
   font-family: $font-family-primary;
-
-  &__heading {
-    font-size: 4.5rem;
-    margin: 0rem 0 0 3rem;
-    padding-top: 5rem;
-  }
-
-  // NOT REM! Override BS4 hardcoded paddings and margins.
-  margin-left: -15px;
-  margin-right: -15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  & > .row {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
 }

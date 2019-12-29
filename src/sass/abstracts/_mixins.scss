@@ -1,0 +1,33 @@
+@mixin reset-section {
+  // NOT REM! Override BS4 hardcoded paddings and margins.
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-right: 15px;
+  & > .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  padding-left: 3rem;
+  @media (min-width: 992px) { 
+    padding-left: 6rem;
+  }
+}
+
+@mixin section-heading {
+  &__heading {
+    font-size: 4.5rem;
+    margin: 0 0 0 0;
+    padding-top: 5rem;
+  }
+}
+
+@mixin section-subheading {
+  &__subheading {
+    font-size: 3rem;
+    margin: 2rem 0;
+    display: inline-block;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba($line-color, .7);
+  }
+}

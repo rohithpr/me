@@ -1,9 +1,11 @@
+@import 'abstracts/mixins';
 @import 'abstracts/variables';
 
 @import 'base/base';
 @import 'base/typography';
 @import 'base/utilities';
 
+@import 'components/experience';
 @import 'components/introduction';
 @import 'components/skills';
 @import 'components/skillCard';

@@ -1,0 +1,30 @@
+.experience {
+  @include reset-section;
+  @include section-heading;
+  @include section-subheading;
+
+  background-color: $light-grey;
+
+  &__heading {
+    color: $color-secondary;
+  }
+
+  &__subheading > a {
+    &:link, &:visited {
+      text-decoration: none;
+      color: $color-secondary;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 2.4rem;
+  }
+
+  &__points {
+    margin-top: 1.6rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+  }
+}
