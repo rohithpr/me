@@ -26,7 +26,7 @@ export default {
     const devAssociate = {
       title: 'AWS Certified Developer - Associate (DVA-C01)',
       issuer: 'AWS Training and Certification',
-      from: 'Octber 2019',
+      from: 'October 2019',
       to: 'October 2022'
     }
     const certificates = [ be, devAssociate ]
