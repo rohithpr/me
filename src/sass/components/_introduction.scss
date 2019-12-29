@@ -1,11 +1,14 @@
 .intro {
   background-image:
-    linear-gradient(to right, rgba($grey-background-1, 0.5), rgba($grey-background-1, 0.8)),
-    url(/images/plant-mirror.jpeg);
-  background-size: cover;
+    linear-gradient(
+      60deg, $color-primary, $color-transparent
+    ),
+    linear-gradient(
+      $color-secondary, $color-secondary
+    );
   text-align: center;
   font-family: $font-family-primary;
-  color: $color-primary;
+  color: $light-grey;
   padding: 12.5rem 0;
 
   &__container {
@@ -20,9 +23,9 @@
     display: inline-block;
     padding: 1.5rem;
     margin: 1rem;
-    color: $color-primary;
+    color: $light-grey;
     font-size: 3rem;
-    border: .3rem solid $color-primary;
+    border: .3rem solid $light-grey;
     text-decoration: none;
     outline: none;
   }
@@ -39,7 +42,7 @@
   }
 
   &__sep {
-    border-top: .3rem solid $color-primary;
+    border-top: .3rem solid $light-grey;
     margin: 4rem 0;
   }
 }
