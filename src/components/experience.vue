@@ -13,15 +13,22 @@
         <ul class="experience__points">
           <li v-for="point in role.points" :key="point">{{ point }}</li>
         </ul>
-        <!-- TODO: Implement technology tags -->
+        <Tags
+          :tags=role.technologies
+        ></Tags>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Tags from './tags'
+
 export default {
   name: 'Experience',
+  components: {
+    Tags,
+  },
   data() {
     const deltax = {
       name: 'DeltaX, Bengaluru, India',
