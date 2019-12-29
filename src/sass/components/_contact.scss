@@ -1,8 +1,8 @@
-.resume {
+.contact {
   @include reset-section;
   @include section-heading;
 
-  &__link {
+  &__email {
     font-size: 2rem;
     margin-top: 2rem;
   }
