@@ -1,11 +1,5 @@
 .intro {
-  background-image:
-    linear-gradient(
-      60deg, $color-primary, $color-transparent
-    ),
-    linear-gradient(
-      $color-secondary, $color-secondary
-    );
+  background-image: $background-primary;
   text-align: center;
   font-family: $font-family-primary;
   color: $light-grey;

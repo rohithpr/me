@@ -19,5 +19,9 @@ $line-color: $color-secondary;
 // How to get grey's that look good with your primary color
 // http://willguldin.com/2017/03/28/simpler-better-color-palettes/
 // https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e
-$grey-background-1: #f4f4f4;
-$grey-background-2: #eeeeee;
+$background-grey-1: #f4f4f4;
+$background-grey-2: #eeeeee;
+
+$background-primary: linear-gradient(
+  60deg, $color-primary, $color-secondary
+);
