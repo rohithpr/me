@@ -4,9 +4,17 @@
   &__tag {
     display: inline-block;
     margin: .5rem 1rem .5rem 0;
-    padding: .5rem 2rem .5rem 2rem;
-    background-color: $color-primary;
+    padding: .1rem 2rem .1rem 2rem;
+    background-color: $color-secondary-light;
     color: $light-grey;
-    clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%);
+    clip-path: polygon(
+      0 50%,
+      1rem 0,
+      calc(100% - 1rem) 0,
+      100% 50%,
+      calc(100% - 1rem) 100%,
+      1rem 100%,
+      0 50%
+    );
   }
 }
