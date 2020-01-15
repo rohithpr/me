@@ -5,6 +5,7 @@
       <Skills></Skills>
       <Experience></Experience>
       <Education></Education>
+      <Projects></Projects>
       <Resume></Resume>
       <Contact></Contact>
     </div>
@@ -15,9 +16,10 @@
 import Contact from './components/contact'
 import Experience from './components/experience'
 import Education from './components/education'
+import Introduction from './components/introduction';
+import Projects from './components/projects'
 import Resume from './components/resume'
 import Skills from './components/skills'
-import Introduction from './components/introduction';
 
 export default {
   name: 'app',
@@ -26,6 +28,7 @@ export default {
     Education,
     Experience,
     Introduction,
+    Projects,
     Resume,
     Skills,
   }
