@@ -1,6 +1,6 @@
 <template>
   <div class="resume">
-    <h2 class="resume__heading">Resume</h2>
+    <SectionHeading heading="Resume" />
     <p class="resume__link">
       <a
         href="https://www.dropbox.com/s/atffimmvnkhe6dr/Rohith%20PR%20Resume.pdf?dl=0&s=sl"
@@ -13,7 +13,12 @@
 </template>
 
 <script>
+import SectionHeading from './sectionHeading'
+
 export default {
   name: 'Resume',
+  components: {
+    SectionHeading,
+  },
 }
 </script>

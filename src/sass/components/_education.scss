@@ -1,6 +1,5 @@
 .education {
   @include reset-section;
-  @include section-heading;
   @include section-subheading;
 
   &__title {

@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <h2 class="contact__heading">Contact</h2>
+    <SectionHeading heading="Contact" />
     <p class="contact__email">
       praroh number(two) [ at ] gmail.com
     </p>
@@ -8,7 +8,12 @@
 </template>
 
 <script>
+import SectionHeading from './sectionHeading'
+
 export default {
   name: 'Contact',
+  components: {
+    SectionHeading,
+  },
 }
 </script>

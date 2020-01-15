@@ -1,6 +1,6 @@
 <template>
   <div class="education">
-    <h2 class="education__heading">Education &amp; Certification</h2>
+    <SectionHeading heading="Education &amp; Certification" />
     <div
       v-for="certificate in certificates"
       :key="certificate.title"
@@ -14,8 +14,13 @@
 </template>
 
 <script>
+import SectionHeading from './sectionHeading'
+
 export default {
   name: 'Education',
+  components: {
+    SectionHeading,
+  },
   data() {
     const be = {
       title: 'Bachelor of Engineering in Information Science',

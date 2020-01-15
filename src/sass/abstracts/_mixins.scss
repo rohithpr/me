@@ -15,15 +15,6 @@
   }
 }
 
-@mixin section-heading {
-  &__heading {
-    font-size: 4.5rem;
-    margin: 0 0 0 0;
-    padding-top: 5rem;
-    color: $color-secondary;
-  }
-}
-
 @mixin section-subheading {
   &__subheading {
     font-size: 3rem;

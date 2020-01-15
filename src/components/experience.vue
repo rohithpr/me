@@ -1,6 +1,6 @@
 <template>
   <div class="experience">
-    <h2 class="experience__heading">Experience</h2>
+    <SectionHeading heading="Experience" />
     <div v-for="company in companies" :key="company.name">
       <h3 class="experience__subheading">
         <a :href="company.website" target="_blank">{{ company.name }}</a>
@@ -22,11 +22,13 @@
 </template>
 
 <script>
+import SectionHeading from './sectionHeading'
 import Tags from './tags'
 
 export default {
   name: 'Experience',
   components: {
+    SectionHeading,
     Tags,
   },
   data() {

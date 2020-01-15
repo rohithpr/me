@@ -1,6 +1,5 @@
 .experience {
   @include reset-section;
-  @include section-heading;
   @include section-subheading;
 
   background-color: $light-grey;

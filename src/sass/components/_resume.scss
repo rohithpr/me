@@ -1,6 +1,5 @@
 .resume {
   @include reset-section;
-  @include section-heading;
 
   &__link {
     font-size: 2rem;

@@ -1,6 +1,5 @@
 .contact {
   @include reset-section;
-  @include section-heading;
 
   &__email {
     font-size: 2rem;

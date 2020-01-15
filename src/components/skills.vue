@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    <h2 class="skills__heading">Skills</h2>
+    <SectionHeading heading="Skills" />
     <div v-for="skill in skills" :key="skill.heading">
       <SkillSection
         :heading=skill.heading
@@ -12,11 +12,13 @@
 </template>
 
 <script>
+import SectionHeading from './sectionHeading'
 import SkillSection from './skillSection'
 
 export default {
   name: 'Skills',
   components: {
+    SectionHeading,
     SkillSection,
   },
   data: function () {
