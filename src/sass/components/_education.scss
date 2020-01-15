@@ -2,6 +2,8 @@
   @include reset-section;
   @include section-subheading;
 
+  background-color: $background-grey-2;
+
   &__title {
     display: inline-block;
     margin-right: 2rem;

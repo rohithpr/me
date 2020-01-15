@@ -1,6 +1,8 @@
 .contact {
   @include reset-section;
 
+  background-color: $background-grey-1;
+
   &__email {
     font-size: 2rem;
     margin-top: 2rem;
