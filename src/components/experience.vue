@@ -95,6 +95,7 @@ export default {
         points: [
         ],
         technologies: [
+          'Microservice Architecture',
           'AWS - Lambda', 'AWS - API Gateway', 'AWS - Elasticache', 'AWS - X-ray', 'AWS - RDS',
           'Python', 'Django',
           'Vue.js',
