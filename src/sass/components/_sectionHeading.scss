@@ -7,4 +7,5 @@
   background-image: $background-primary;
   background-clip: text;
   -webkit-background-clip: text;
+  border-bottom: .2rem solid rgba($line-color, .5);
 }
