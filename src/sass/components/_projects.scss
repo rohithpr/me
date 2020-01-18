@@ -2,4 +2,27 @@
   @include reset-section;
 
   background-color: $background-grey-1;
+
+  & > .section-heading {
+    margin-bottom: 4rem;
+  }
+
+  &__project {
+    margin-top: 1rem;
+
+    @media (min-width: 768px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__name {
+    font-size: 3rem;
+
+    & > a {
+      &:link, &:visited {
+        text-decoration: none;
+        color: $color-secondary;
+      }
+    }
+  }
 }
