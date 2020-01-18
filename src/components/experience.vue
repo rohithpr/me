@@ -91,8 +91,10 @@ export default {
         title: 'Lead Engineer - BriteAccess',
         from: 'July 2019',
         to: 'Present',
-        // TODO: Add Access role points.
         points: [
+          'BriteAccess is a microservice designed to provide fine grained access control to other BriteCore products.',
+          'Designed solutions to provide uniform access control abilities across legacy and modern products.',
+          'Designed solutions to reduce request processing latency from 2s to <100ms.',
         ],
         technologies: [
           'Microservice Architecture',
