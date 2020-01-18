@@ -31,6 +31,11 @@ export default {
   },
   data () {
     const projects = [{
+      name: 'Personal Website',
+      link: 'https://github.com/rohithpr/rohithpr.github.com',
+      description: 'This website!',
+      tags: ['Vue.js', 'Sass'],
+    }, {
       name: 'Reddit Scrubber',
       link: 'https://github.com/rohithpr/reddit-scrubber',
       description: 'A serverless app that runs periodically on AWS Lambda to delete old content from Reddit.',
