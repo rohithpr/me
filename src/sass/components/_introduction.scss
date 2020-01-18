@@ -1,0 +1,48 @@
+.intro {
+  background-image: $background-primary;
+  text-align: center;
+  font-family: $font-family-primary;
+  color: $light-grey;
+  padding: 12.5rem 0;
+
+  &__container {
+    display: inline-block;
+  }
+
+  &__social-link,
+  &__social-link:link,
+  &__social-link:visited,
+  &__social-link:active {
+    display: inline-block;
+    padding: 1.5rem;
+    margin: 1rem;
+    color: $light-grey;
+    font-size: 3rem;
+    border: .3rem solid $light-grey;
+    text-decoration: none;
+    outline: none;
+  }
+
+
+  &__social-link:hover,
+  &__social-link:focus {
+    color: $color-primary;
+    background-color: $light-grey;
+  }
+
+  &__name {
+    font-family: $font-family-primary;
+    font-size: 6rem;
+    letter-spacing: .4rem;
+  }
+
+  &__subtitle {
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+  }
+
+  &__sep {
+    border-top: .3rem solid $light-grey;
+    margin: 4rem 0;
+  }
+}

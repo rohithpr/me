@@ -1,0 +1,27 @@
+$default-font-size: 1.6rem;
+
+$font-family-primary: 'Roboto Slab', sans-serif;
+
+$color-black: #000000;
+$light-grey: #f8f8f8;
+$dark-grey-1: #cccccc;
+$dark-grey-2: #777777;
+
+$color-primary: hsl(285, 65%, 35%);
+$color-secondary: hsl(210, 100%, 30%);
+$color-secondary-light: hsl(210, 100%, 40%);
+$color-text: black;
+$color-transparent: hsla(0, 0, 0, 0);
+
+$line-color: $color-secondary;
+
+// TODO: Fix greys
+// How to get grey's that look good with your primary color
+// http://willguldin.com/2017/03/28/simpler-better-color-palettes/
+// https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e
+$background-grey-1: #f4f4f4;
+$background-grey-2: #eeeeee;
+
+$background-primary: linear-gradient(
+  60deg, $color-primary, $color-secondary
+);

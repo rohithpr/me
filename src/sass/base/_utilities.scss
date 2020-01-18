@@ -1,0 +1,19 @@
+.u-red-box { border: 1px solid red; }
+
+.u-hover-zoom {
+  transition: all .5s;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+}
+
+.u-margin-top-md {
+  margin-top: 1rem;
+}
+
+.u-padding-tb-lg {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
