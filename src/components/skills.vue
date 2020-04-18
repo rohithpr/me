@@ -49,6 +49,9 @@ export default {
       name: 'Git',
       logo: 'images/git.svg',
     }, {
+      name: 'Docker',
+      logo: 'images/docker.png',
+    }, {
       name: 'Amazon Web Services',
       logo: 'images/aws.png',
     }, {
@@ -72,9 +75,6 @@ export default {
     }, {
       name: 'AWS - RDS',
       logo: 'images/rds.svg',
-    }, {
-      name: 'AWS - Elasticache',
-      logo: 'images/elasticache.svg',
     }, {
       name: 'AWS - S3',
       logo: 'images/s3.svg',
