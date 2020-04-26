@@ -38,9 +38,6 @@ export default {
     }, {
       name: 'SQL',
       logo: 'images/db.png'
-    }, {
-      name: 'C',
-      logo: 'images/c.svg'
     }]
     const tools = [{
       name: 'Linux',
