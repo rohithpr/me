@@ -36,6 +36,16 @@ export default {
       description: 'This website!',
       tags: ['Vue.js', 'Sass'],
     }, {
+      name: 'LetsFind',
+      link: 'https://letsfind.io',
+      description: 'A personal search engine that integrates with Google Drive, Slack, Zendesk, Dropbox etc. to allow users to search for their personal content from a single interface.',
+      tags: ['Serverless', 'AWS - Lambda', 'Python', 'React.js', 'Flask'],
+    }, {
+      name: 'LockThat',
+      link: 'https://github.com/rohithpr/lockthat.xyz',
+      description: 'A Slack app that can be used manage usage of shared resources in a team.',
+      tags: ['Serverless', 'AWS - Lambda', 'Python', 'Flask'],
+    }, {
       name: 'Reddit Scrubber',
       link: 'https://github.com/rohithpr/reddit-scrubber',
       description: 'A serverless app that runs periodically on AWS Lambda to delete old content from Reddit.',
