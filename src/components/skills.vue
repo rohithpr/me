@@ -83,6 +83,9 @@ export default {
       name: 'Serverless',
       logo: 'images/serverless.png',
     }, {
+      name: 'React.js',
+      logo: 'images/react.svg',
+    }, {
       name: 'Vue.js',
       logo: 'images/vue.png',
     }, {
