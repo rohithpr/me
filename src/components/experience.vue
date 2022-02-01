@@ -92,15 +92,17 @@ export default {
         from: 'July 2019',
         to: 'Present',
         points: [
-          'BriteCore is a SaaS insurance processing suite for carriers in the US.',
-          'Led the implementation of BriteAccess - a microservice, hosted on AWS Lambda, built to provide fine grained access control across all BriteCore microservices.',
-          'Designed solutions to provide uniform access control abilities across legacy and modern products.',
-          'Reduced permissions calculation time by 95% from 2 seconds to 90 milliseconds.',
-          'Worked with Product Owners to chart product development roadmaps and performed code reviews.',
+          'Led a team of 8 developers to implement BriteAccess - an RBAC microservice hosted on AWS Lambda.',
+          'Designed solutions to provide uniform access control abilities on over 10 legacy and modern services.',
+          'Architected a mechanism for services to dynamically update available actions and permissions in the centralized access controller to reduce pull request time-to-merge and defects.',
+          'Reduced the access control middleware’s latency by 95% from 2 seconds to 90 milliseconds.',
+          'Co-ordinated with Product Owners to chart the product development roadmap and launched the product 6 months ahead of schedule.',
+          'Built Github Actions to automate parts of code review and shortened the review checklist by 30%.'
         ],
         technologies: [
           'Microservice Architecture',
           'AWS - Lambda', 'AWS - API Gateway', 'AWS - Elasticache', 'AWS - X-ray', 'AWS - RDS',
+          'CDK',
           'Python', 'Django',
           'Vue.js',
           'Docker',
