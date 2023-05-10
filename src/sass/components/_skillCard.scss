@@ -1,0 +1,25 @@
+.skill {
+  border-width: 0px;
+  border-style: solid;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 0 0 0 0;
+
+  &__image-container {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__image {
+    vertical-align: middle;
+    max-width: 90%;
+    max-height: 100%;
+  }
+
+  &__title {
+    margin: 1rem 0 0 0;
+    color: $color-text;
+  }
+}

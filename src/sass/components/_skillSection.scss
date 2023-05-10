@@ -1,0 +1,7 @@
+.skill-section {
+  @include section-subheading;
+
+  &__list {
+    padding-bottom: 2rem;
+  }
+}

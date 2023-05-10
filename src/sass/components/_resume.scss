@@ -1,0 +1,10 @@
+.resume {
+  @include reset-section;
+
+  background-color: $background-grey-2;
+
+  &__link {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
