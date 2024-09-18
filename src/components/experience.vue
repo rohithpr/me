@@ -48,7 +48,7 @@ export default {
         points: [
           'Developed a Google Chrome extension (DeltaX Pixel Helper) which helps validate online advertisements.',
           'Developed a REST API for the DeltaX Ad Server (Adjiva).',
-          'Reduced Adjiva’s latency from 86ms to 15ms, and CPU utilization by 50% for average load.',
+          'Reduced Adjiva\'s latency from 86ms to 15ms, and CPU utilization by 50% for average load.',
           'Redesigned the database to reduce the duration of bulk data loading (a weekly task) from 200 minutes to 30 minutes.',
           'Added functionality to support video ads (VAST).',
           'Developed a custom decision tree parser to dynamically select advertisements to be displayed.',
@@ -90,7 +90,7 @@ export default {
       roles: [{
         title: 'Senior Software Engineer',
         from: 'July 2021',
-        to: 'Present',
+        to: 'September 2023',
         points: [
           'Improved performance of critical endpoints to meet third-party comparative rater requirements.',
           'Fixed over 30 complicated long-standing defects to improve product stability and data cleanliness.',
@@ -109,7 +109,7 @@ export default {
           'Led a team of 8 developers to implement BriteAccess - an RBAC microservice hosted on AWS Lambda.',
           'Designed solutions to provide uniform access control abilities on over 10 legacy and modern services.',
           'Architected a mechanism for services to dynamically update available actions and permissions in the centralized access controller to reduce pull request time-to-merge and defects.',
-          'Reduced the access control middleware’s latency by 95% from 2 seconds to 90 milliseconds.',
+          'Reduced the access control middleware\'s latency by 95% from 2 seconds to 90 milliseconds.',
           'Co-ordinated with Product Owners to chart the product development roadmap and launched the product 6 months ahead of schedule.',
           'Built Github Actions to automate parts of code review and shortened the review checklist by 30%.'
         ],
@@ -129,10 +129,10 @@ export default {
         points: [
           'Led a team using Agile software development process to successfully deploy client sites on time.',
           'Identified and rectified vulnerabilities such as unauthorized access, and remote code execution.',
-          'Ideated and developed multiple features to enhance the product’s usefulness and usability.',
+          'Ideated and developed multiple features to enhance the product\'s usefulness and usability.',
           'Implemented third-party vendor integrations with ISO, 360 value and e2value.',
           'Profiled and reduced latency of common API methods by 10-20%.',
-          'Performed code reviews and tested peers’ changes.',
+          'Performed code reviews and tested peers\' changes.',
         ],
         technologies: [
           'AWS - EC2', 'AWS - S3', 'AWS - RDS',
@@ -141,7 +141,30 @@ export default {
         ]
       }]
     }
+
+    const drchrono = {
+      name: 'DrChrono, Toronto, Canada',
+      website: 'https://drchrono.com',
+      roles: [{
+        title: 'Senior Software Engineer',
+        from: 'September 2023',
+        to: 'Present',
+        points: [
+          'Mentored junior team members to achieve team objectives.',
+          'Participated in on-call rotations to ensure system stability and minimize impact to clients.',
+          'Authored runbooks to minimize knowledge silos and share information efficiently.',
+          'Implemented features to accelerate claim submission, and accept payments.',
+          'Resovled critical bugs.',
+        ],
+        technologies: [
+          'AWS',
+          'Python',
+          'Django',
+        ]
+      }]
+    }
     const companies = [
+      drchrono,
       britecore,
       rakshe,
       deltax,
