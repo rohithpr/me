@@ -12,6 +12,8 @@ npm run compile:sass
 
 ### Compiles and hot-reloads for development
 ```
+# TODO: Update the package that is using the old SSL package.
+export NODE_OPTIONS=--openssl-legacy-provider
 npm run serve
 ```
 
